@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>30 Barber Shop - Đẳng Cấp Quý Ông Quảng Ngãi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Roboto', sans-serif; }
+        h1, h2, h3, .font-oswald { font-family: 'Oswald', sans-serif; }
+        .bg-gold { background-color: #C5A059; }
+        .text-gold { color: #C5A059; }
+        .border-gold { border-color: #C5A059; }
+        .hero-gradient { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&q=80&w=1920'); background-size: cover; background-position: center; }
+    </style>
+</head>
+<body class="bg-zinc-950 text-gray-200">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-black/90 border-b border-zinc-800 backdrop-blur-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <span class="text-2xl font-bold tracking-tighter text-white">30 BARBER <span class="text-gold">SHOP</span></span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#home" class="hover:text-gold px-3 py-2 transition-colors">Trang chủ</a>
+                        <a href="#services" class="hover:text-gold px-3 py-2 transition-colors">Dịch vụ</a>
+                        <a href="#lookbook" class="hover:text-gold px-3 py-2 transition-colors">Mẫu tóc</a>
+                        <a href="#booking" class="bg-gold text-black font-bold px-6 py-2 rounded-sm hover:bg-yellow-600 transition-all">ĐẶT LỊCH NGAY</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative h-screen flex items-center justify-center hero-gradient pt-20">
+        <div class="text-center px-4 max-w-4xl">
+            <p class="text-gold tracking-[0.3em] uppercase mb-4 font-bold">The Art of Grooming</p>
+            <h1 class="text-5xl md:text-7xl font-bold text-white mb-6 uppercase leading-tight">Tút Lại Vẻ Điển Trai<br>Khẳng Định Chất Riêng</h1>
+            <p class="text-lg md:text-xl mb-10 text-gray-300 max-w-2xl mx-auto">Tọa lạc tại 110 Phan Đình Phùng, 30 Barber Shop là nơi hội ngộ của những tay kéo điêu luyện nhất Quảng Ngãi.</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#booking" class="bg-gold text-black font-bold px-10 py-4 text-lg hover:scale-105 transition-transform">ĐẶT LỊCH GIỮ CHỖ</a>
+                <a href="#services" class="border border-white text-white font-bold px-10 py-4 text-lg hover:bg-white hover:text-black transition-all">XEM BẢNG GIÁ</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="py-12 bg-zinc-900 border-y border-zinc-800">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            <div>
+                <div class="text-3xl font-bold text-gold mb-1">300+</div>
+                <div class="text-sm uppercase tracking-widest text-gray-500">Đánh giá 5 sao</div>
+            </div>
+            <div>
+                <div class="text-3xl font-bold text-gold mb-1">10+</div>
+                <div class="text-sm uppercase tracking-widest text-gray-500">Stylist Chuyên Nghiệp</div>
+            </div>
+            <div>
+                <div class="text-3xl font-bold text-gold mb-1">5000+</div>
+                <div class="text-sm uppercase tracking-widest text-gray-500">Khách hàng thân thiết</div>
+            </div>
+            <div>
+                <div class="text-3xl font-bold text-gold mb-1">15+</div>
+                <div class="text-sm uppercase tracking-widest text-gray-500">Dịch vụ chăm sóc</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="py-24 px-4 bg-zinc-950">
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-white uppercase mb-4">Dịch vụ của chúng tôi</h2>
+                <div class="h-1 w-20 bg-gold mx-auto"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12">
+                <div class="space-y-8">
+                    <div class="flex justify-between items-end border-b border-zinc-800 pb-2">
+                        <div>
+                            <h3 class="text-xl font-bold text-white uppercase">Combo 7 Bước "Đẹp Trai"</h3>
+                            <p class="text-sm text-gray-500 italic">Gội, massage, tư vấn, cắt, vuốt sáp...</p>
+                        </div>
+                        <span class="text-gold font-bold text-xl">100.000đ</span>
+                    </div>
+                    <div class="flex justify-between items-end border-b border-zinc-800 pb-2">
+                        <div>
+                            <h3 class="text-xl font-bold text-white uppercase">Uốn Texture / Premlock</h3>
+                            <p class="text-sm text-gray-500 italic">Tạo độ phồng, giữ nếp lâu dài</p>
+                        </div>
+                        <span class="text-gold font-bold text-xl">250.000đ+</span>
+                    </div>
+                    <div class="flex justify-between items-end border-b border-zinc-800 pb-2">
+                        <div>
+                            <h3 class="text-xl font-bold text-white uppercase">Nhuộm Màu Thời Trang</h3>
+                            <p class="text-sm text-gray-500 italic">Tẩy tóc, nhuộm khói, rêu, bạch kim...</p>
+                        </div>
+                        <span class="text-gold font-bold text-xl">200.000đ+</span>
+                    </div>
+                </div>
+                <div class="space-y-8">
+                    <div class="flex justify-between items-end border-b border-zinc-800 pb-2">
+                        <div>
+                            <h3 class="text-xl font-bold text-white uppercase">Tẩy Da Chết & Đắp Mặt Nạ</h3>
+                            <p class="text-sm text-gray-500 italic">Sạch sâu, sáng da, thư giãn</p>
+                        </div>
+                        <span class="text-gold font-bold text-xl">50.000đ</span>
+                    </div>
+                    <div class="flex justify-between items-end border-b border-zinc-800 pb-2">
+                        <div>
+                            <h3 class="text-xl font-bold text-white uppercase">Lấy Ráy Tai Chuyên Nghiệp</h3>
+                            <p class="text-sm text-gray-500 italic">Kỹ thuật êm ái, dụng cụ vô trùng</p>
+                        </div>
+                        <span class="text-gold font-bold text-xl">40.000đ</span>
+                    </div>
+                    <div class="flex justify-between items-end border-b border-zinc-800 pb-2">
+                        <div>
+                            <h3 class="text-xl font-bold text-white uppercase">Cạo Mặt & Massage Cổ Vai Gáy</h3>
+                            <p class="text-sm text-gray-500 italic">Combo thư giãn sau giờ làm việc</p>
+                        </div>
+                        <span class="text-gold font-bold text-xl">60.000đ</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lookbook -->
+    <section id="lookbook" class="py-24 bg-zinc-900">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-white uppercase mb-4">Lookbook - Mẫu Tóc Hot</h2>
+                <p class="text-gray-400">Những tác phẩm được thực hiện trực tiếp tại 30 Barber Shop</p>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <img src="https://images.unsplash.com/photo-1621605815841-aa897bd439b4?auto=format&fit=crop&q=80&w=600" alt="Haircut 1" class="w-full h-80 object-cover hover:opacity-75 transition-opacity cursor-pointer">
+                <img src="https://images.unsplash.com/photo-1593702295094-272a67d9963c?auto=format&fit=crop&q=80&w=600" alt="Haircut 2" class="w-full h-80 object-cover hover:opacity-75 transition-opacity cursor-pointer">
+                <img src="https://images.unsplash.com/photo-1622286332618-f2802b9c74bc?auto=format&fit=crop&q=80&w=600" alt="Haircut 3" class="w-full h-80 object-cover hover:opacity-75 transition-opacity cursor-pointer">
+                <img src="https://images.unsplash.com/photo-1532710093739-9470acff878f?auto=format&fit=crop&q=80&w=600" alt="Haircut 4" class="w-full h-80 object-cover hover:opacity-75 transition-opacity cursor-pointer">
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Form -->
+    <section id="booking" class="py-24 px-4 bg-zinc-950">
+        <div class="max-w-4xl mx-auto bg-zinc-900 p-8 md:p-12 border border-zinc-800 rounded-lg shadow-2xl">
+            <div class="text-center mb-10">
+                <h2 class="text-3xl font-bold text-white uppercase mb-2">Đặt Lịch Giữ Chỗ</h2>
+                <p class="text-gray-400">Tiết kiệm thời gian chờ đợi - Phục vụ chu đáo hơn</p>
+            </div>
+            <form class="grid md:grid-cols-2 gap-6">
+                <div class="space-y-2">
+                    <label class="text-sm font-bold uppercase text-gray-500">Họ và Tên</label>
+                    <input type="text" placeholder="Nguyễn Văn A" class="w-full bg-zinc-800 border border-zinc-700 p-4 text-white focus:border-gold outline-none">
+                </div>
+                <div class="space-y-2">
+                    <label class="text-sm font-bold uppercase text-gray-500">Số Điện Thoại</label>
+                    <input type="tel" placeholder="0905 xxx xxx" class="w-full bg-zinc-800 border border-zinc-700 p-4 text-white focus:border-gold outline-none">
+                </div>
+                <div class="space-y-2">
+                    <label class="text-sm font-bold uppercase text-gray-500">Ngày Hẹn</label>
+                    <input type="date" class="w-full bg-zinc-800 border border-zinc-700 p-4 text-white focus:border-gold outline-none">
+                </div>
+                <div class="space-y-2">
+                    <label class="text-sm font-bold uppercase text-gray-500">Giờ Hẹn</label>
+                    <select class="w-full bg-zinc-800 border border-zinc-700 p-4 text-white focus:border-gold outline-none">
+                        <option>08:00 - 09:00</option>
+                        <option>09:00 - 10:00</option>
+                        <option>10:00 - 11:00</option>
+                        <option>14:00 - 15:00</option>
+                        <option>16:00 - 17:00</option>
+                    </select>
+                </div>
+                <div class="md:col-span-2 space-y-2">
+                    <label class="text-sm font-bold uppercase text-gray-500">Ghi chú (Dịch vụ hoặc Stylist yêu thích)</label>
+                    <textarea rows="3" class="w-full bg-zinc-800 border border-zinc-700 p-4 text-white focus:border-gold outline-none"></textarea>
+                </div>
+                <button type="submit" class="md:col-span-2 bg-gold text-black font-bold py-4 text-xl hover:bg-yellow-600 transition-colors uppercase">Xác Nhận Đặt Lịch</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black py-16 px-4 border-t border-zinc-800">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-12">
+            <div>
+                <h3 class="text-2xl font-bold text-white mb-6 uppercase">30 BARBER <span class="text-gold">SHOP</span></h3>
+                <p class="text-gray-500 leading-relaxed">
+                    Tự hào là địa chỉ cắt tóc nam hàng đầu tại Quảng Ngãi. Chúng tôi không chỉ cắt tóc, chúng tôi kiến tạo phong cách cho phái mạnh.
+                </p>
+            </div>
+            <div>
+                <h4 class="text-lg font-bold text-white mb-6 uppercase">Liên Hệ</h4>
+                <ul class="space-y-4 text-gray-500">
+                    <li class="flex items-start">
+                        <span class="text-gold mr-3">📍</span>
+                        110 Phan Đình Phùng, TP. Quảng Ngãi
+                    </li>
+                    <li class="flex items-center">
+                        <span class="text-gold mr-3">📞</span>
+                        09xx xxx xxx (Hotline đặt lịch)
+                    </li>
+                    <li class="flex items-center">
+                        <span class="text-gold mr-3">⏰</span>
+                        08:00 - 20:00 (Tất cả các ngày)
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-lg font-bold text-white mb-6 uppercase">Kết nối</h4>
+                <div class="flex space-x-4">
+                    <a href="#" class="w-10 h-10 bg-zinc-800 flex items-center justify-center hover:bg-gold hover:text-black transition-all">FB</a>
+                    <a href="#" class="w-10 h-10 bg-zinc-800 flex items-center justify-center hover:bg-gold hover:text-black transition-all">IG</a>
+                    <a href="#" class="w-10 h-10 bg-zinc-800 flex items-center justify-center hover:bg-gold hover:text-black transition-all">TT</a>
+                </div>
+                <p class="mt-6 text-sm text-gray-600 italic">Hơn 300 đánh giá 5 sao trên Google Maps</p>
+            </div>
+        </div>
+        <div class="text-center mt-16 pt-8 border-t border-zinc-900 text-gray-600 text-sm">
+            &copy; 2023 30 Barber Shop Quảng Ngãi. Designed for Excellence.
+        </div>
+    </footer>
+
+</body>
+</html>
